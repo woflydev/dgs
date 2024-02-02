@@ -2,7 +2,7 @@
 import { themeColor, contactInfo } from "../data/items";
 
 const heading = "Get In Touch";
-const subHeading = "Far from the countries Vokalia and Consonantia";
+const subHeading = "We'd love to hear from you!";
 const contactInfoHeading = "Contact Information";
 const buttonSendMessage = "Send Message";
 const labels = {
