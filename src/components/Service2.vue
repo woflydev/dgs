@@ -3,18 +3,18 @@ import mainPhoto from "../assets/images/service2.jpg";
 const items = [
   {
     id: 1,
-    name: "Grow Your Business",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+    name: "Error and Incident Protection",
+    des: "Modern autonomous industrial systems have numerous sensors and detection systems that allow for the machine o detect errors as they happen and correct for these issues, reducing machine downtime and preventing further damages.",
   },
   {
     id: 2,
-    name: "Build Products",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+    name: "Incident Prevention",
+    des: "Some autonomous systems use machine learning algorithms to analyse sensor data and uptime to predict and prevent errors before they happen.",
   },
   {
     id: 3,
-    name: "Success Every Day",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+    name: "Improvements to Worker Safety",
+    des: "Automated manufacturing systems require less human intervention, reducing the risk of injury and accidents in the workplace.",
   },
   {
     id: 4,
@@ -22,7 +22,7 @@ const items = [
     des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
   },
 ];
-const total = 4;
+const total = 3;
 </script>
 
 <template>
@@ -93,7 +93,7 @@ const total = 4;
             data-aos="fade-left"
             data-aos-delay="200"
           >
-            <div class="service-icon color-3 mb-4">
+            <div class="service-icon color-4 mb-4">
               <svg
                 class="bi bi-briefcase"
                 width="1em"
@@ -123,7 +123,7 @@ const total = 4;
             data-aos="fade-left"
             data-aos-delay="300"
           >
-            <div class="service-icon color-4 mb-4">
+            <!-- <div class="service-icon color-4 mb-4">
               <svg
                 class="bi bi-collection"
                 width="1em"
@@ -141,7 +141,7 @@ const total = 4;
             <div class="service-contents">
               <h3>{{ items[3].name }}</h3>
               <p>{{ items[3].des }}</p>
-            </div>
+            </div> -->
           </a>
         </div>
         <div class="col-lg-7">

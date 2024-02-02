@@ -2,9 +2,9 @@
 import { contactInfo } from "../data/items";
 
 const copyrightText = "Copyright 2023, All rights reserved.";
-const column1Heading = "About Launch";
+const column1Heading = "About Odyssey Robotics";
 const column1Text =
-  "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.";
+  "We are a team of passionate robotics students in Queensland, Australia.";
 const column2Heading = "Projects";
 const column3Heading = "Services";
 const column4Heading = "Contact";
@@ -76,7 +76,7 @@ const socialItems = [
             </ul>
           </div>
         </div>
-        <div class="col-lg-2 ml-auto">
+        <!-- <div class="col-lg-2 ml-auto">
           <div class="widget">
             <h3>{{ column2Heading }}</h3>
             <ul class="list-unstyled float-left links">
@@ -87,8 +87,8 @@ const socialItems = [
               <li><a href="#">Sports Hall</a></li>
             </ul>
           </div>
-        </div>
-        <div class="col-lg-2">
+        </div> -->
+        <!-- <div class="col-lg-2">
           <div class="widget">
             <h3>{{ column3Heading }}</h3>
             <ul class="list-unstyled float-left links">
@@ -98,7 +98,7 @@ const socialItems = [
               <li><a href="#">Consultancy</a></li>
             </ul>
           </div>
-        </div>
+        </div> -->
         <div class="col-lg-3">
           <div class="widget">
             <h3>{{ column4Heading }}</h3>
@@ -109,11 +109,11 @@ const socialItems = [
                   contactInfo.phone1
                 }}</a>
               </li>
-              <li>
+              <!-- <li>
                 <a :href="'tel://' + contactInfo.phone2">{{
                   contactInfo.phone2
                 }}</a>
-              </li>
+              </li> -->
               <li>
                 <a :href="'mailto:' + contactInfo.email"
                   ><span>{{ contactInfo.email }}</span></a

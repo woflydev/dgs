@@ -18,13 +18,13 @@ import Footer from "./components/Footer.vue";
   <Hero />
   <Service1 />
   <Service2 />
-  <Feature />
-  <Pricing />
+  <!-- <Feature /> -->
+  <!-- <Pricing />
   <Pricing />
   <Advantage />
   <Testimonial />
   <About />
-  <Blog />
+  <Blog /> -->
   <Contact />
   <Footer />
 </template>

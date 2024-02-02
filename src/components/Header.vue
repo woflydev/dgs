@@ -13,7 +13,7 @@ import { themeColor, siteName } from "../data/items";
             <a href="#home-section" class="nav-link">Home</a>
           </li>
           <li class="has-children">
-            <a href="#" class="nav-link">Dropdown</a>
+            <!-- <a href="#" class="nav-link">More Information</a>
             <ul class="dropdown">
               <li>
                 <a href="#testimonials-section" class="nav-link"
@@ -22,19 +22,19 @@ import { themeColor, siteName } from "../data/items";
               </li>
               <li><a href="#" class="nav-link">Menu Two</a></li>
               <li><a href="#" class="nav-link">Menu Three</a></li>
-            </ul>
+            </ul> -->
           </li>
-          <li><a href="#features-section" class="nav-link">Features</a></li>
-          <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
+          <!-- <li><a href="#features-section" class="nav-link">Features</a></li>
+          <li><a href="#pricing-section" class="nav-link">Automation</a></li>
           <li><a href="#about-section" class="nav-link">About</a></li>
-          <li><a href="#contact-section" class="nav-link">Contact</a></li>
+          <li><a href="#contact-section" class="nav-link">Contact</a></li> -->
         </ul>
         <ul
           class="js-clone-nav d-none mt-1 d-lg-inline-block site-menu float-right"
         >
-          <li class="cta-button-outline" style="margin-right: 5px;"><a href="#">Sign in</a></li>
+          <li class="cta-button-outline" style="margin-right: 5px;"><a href="https://x.com" target="_blank">"BYG"</a></li>
           <li class="cta-primary">
-            <a href="#" :style="[{ backgroundColor: themeColor }]">Register</a>
+            <a href="https://youtube.com/@odysseyplusbreakingcad" target="_blank" :style="[{ backgroundColor: themeColor }]">More About Us</a>
           </li>
         </ul>
         <a

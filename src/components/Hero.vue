@@ -2,9 +2,9 @@
 import mainPhoto from "../assets/images/hero.svg";
 import { themeColor } from "../data/items";
 
-const heroHeading = "Promote Your Products by Colorlib";
-const buttonSeeFeature = "See Features";
-const buttonPricing = "Pricing";
+const heroHeading = "Robotics and Automation";
+const buttonScrollDown = "Click Me To Scroll Down";
+const buttonSeeMore = "See Less";
 </script>
 
 <template>
@@ -27,17 +27,15 @@ const buttonPricing = "Pricing";
               </h1>
               <div class="excerpt" data-aos="fade-up" data-aos-delay="100">
                 <p>
-                  Another cool free html css template by
+                  A very rushed and nonsensical presentation by
                   <span
                     style="
                       background-color: rgba(64, 123, 255, 0.07);
                       color: #407bff;
                     "
-                    >Colorlib</span
+                    >Enoch and Banjo,</span
                   >
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast
+                   which should probably have been completed much faster than it actually was.
                 </p>
               </div>
               <p data-aos="fade-up" data-aos-delay="200">
@@ -49,13 +47,13 @@ const buttonPricing = "Pricing";
                     { background: themeColor },
                     { borderColor: themeColor },
                   ]"
-                  >{{ buttonSeeFeature }}</a
+                  >{{ buttonScrollDown }}</a
                 >
                 <a
-                  href="#pricing-section"
+                  href="#service-section"
                   class="btn btn-outline-primary smoothscroll pricing"
                   :style="[{ color: themeColor }, { borderColor: themeColor }]"
-                  >{{ buttonPricing }}</a
+                  >{{ buttonSeeMore }}</a
                 >
               </p>
             </div>

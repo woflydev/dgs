@@ -3,14 +3,14 @@ import { themeColor } from "../data/items";
 import personPhoto from "../assets/images/person_1.jpg";
 import mainPhoto from "../assets/images/service1.jpg";
 
-const service1Heading = "Digital Services";
-const service1SubHeading = "Selling Digital Services";
+const service1Heading = "Waste Reduction";
+const service1SubHeading = "Helping to Reduce Unused Resources";
 const service1Quote =
-  '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."';
-const personName = "James Anderson";
-const designation = "Facebook, Product Lead";
+  "\"Earth provides enough to satisfy every man's need, but not every man's greed.\"";
+const personName = "Mohandas K. Gandhi";
+const designation = "Absolute Chad (Picture not Accurate)";
 function youtubeVideoUrl() {
-  const youtubeVideoId = "FzRH7y3LbQE";
+  const youtubeVideoId = "TDf1-EGfNM4";
   return `https://www.youtube.com/watch?v=${youtubeVideoId}&amp;t=9s`;
 }
 </script>
@@ -31,13 +31,13 @@ function youtubeVideoUrl() {
           </h3>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast
+              By incorporating robotics and automation into various aspects of production, 
+              transportation, and waste management, industries can significantly reduce waste, 
+              lower resource consumption, and contribute to more sustainable practices. 
             </p>
             <ul class="list-unstyled ul-check primary">
-              <li>There live the blind texts</li>
-              <li>Far far away behind the word</li>
+              <li>Precision Manufacturing</li>
+              <li>Energy Efficiency</li>
             </ul>
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="300">

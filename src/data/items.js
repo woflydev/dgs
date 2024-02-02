@@ -1,12 +1,12 @@
 const themeColor = '#407BFF'
-const siteName = 'Launch'
+const siteName = 'Odyssey Robotics'
 
 const contactInfo = {
-    address: '43 Raymouth Rd. Baltemoer, London 3910',
-    phone1: '+1(123)-456-7890',
-    phone2: '+1(123)-456-7890',
-    email: 'info@mydomain.com',
-    website: 'https://yourwebsite.com/'
+    address: '78 Bywong Street, Toowong, QLD 4066, Australia',
+    phone1: '+61123456789',
+    phone2: '+61123456789',
+    email: 'contact@woflydev.com',
+    website: 'https://odyssey.woflydev.com/'
 }
 
 export { themeColor, siteName, contactInfo }
