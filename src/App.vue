@@ -26,5 +26,5 @@ import Footer from "./components/Footer.vue";
   <About />
   <Blog /> -->
   <Contact />
-  <Footer />
+  <Footer/>
 </template>

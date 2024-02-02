@@ -13,24 +13,24 @@ const connectHeading = "Connect";
 
 const socialItems = [
   {
-    link: "https://www.instagram.com/",
+    link: "https://github.com/wolfydev/",
+    icon: "icon-github",
+  },
+  {
+    link: "https://www.instagram.com/robotics.odyssey",
     icon: "icon-instagram",
   },
   {
-    link: "https://www.twitter.com/",
-    icon: "icon-twitter",
-  },
-  {
-    link: "https://www.facebook.com/",
-    icon: "icon-facebook",
-  },
-  {
-    link: "https://www.linkedin.com/",
+    link: "https://linkedin.com/in/odysseyrobotics",
     icon: "icon-linkedin",
   },
   {
-    link: "https://www.pinterest.com/",
-    icon: "icon-pinterest",
+    link: "https://youtube.com/@odysseyplusbreakingcad",
+    icon: "icon-youtube",
+  },
+  {
+    link: "mailto: odyssey@woflydev.com",
+    icon: "icon-telegram",
   },
 ];
 </script>
