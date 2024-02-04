@@ -4,17 +4,17 @@ const items = [
   {
     id: 1,
     name: "Error and Incident Protection",
-    des: "Modern autonomous industrial systems have numerous sensors and detection systems that allow for the machine o detect errors as they happen and correct for these issues, reducing machine downtime and preventing further damages.",
+    des: "Modern autonomous industrial systems have numerous sensors and detection systems that allow for the machine to detect errors as they happen and correct for these issues, reducing machine downtime and preventing further damages.",
   },
   {
     id: 2,
     name: "Incident Prevention",
-    des: "Some autonomous systems use machine learning algorithms to analyse sensor data and uptime to predict and prevent errors before they happen.",
+    des: "Autonomous systems can use machine learning algorithms to analyse sensor data and uptime to predict and prevent errors before they happen, further reducing manufacturing downtime and preventing the need to call in specialists. ",
   },
   {
     id: 3,
     name: "Improvements to Worker Safety",
-    des: "Automated manufacturing systems require less human intervention, reducing the risk of injury and accidents in the workplace.",
+    des: "Automated manufacturing systems require limited human interaction, and in many cases can be ran for extended periods without any. This reduces the number of staff that need to be monitoring machines - staff that must be properly trained to safely operate these machines and adhere to WHS standards.",
   },
   {
     id: 4,
@@ -149,15 +149,15 @@ const total = 4;
             <div class="owl-single no-dots owl-carousel">
               <div class="item">
                 <span class="number">{{ items[0].id }}/{{ total }}</span>
-                <img :src="mainPhoto" alt="Image" class="img-fluid" />
+                <img :src="src\assets\images\assembly line.jpg" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
                 <span class="number">{{ items[1].id }}/{{ total }}</span>
-                <img :src="mainPhoto" alt="Image" class="img-fluid" />
+                <img :src="src\assets\images\graph.png" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
                 <span class="number">{{ items[2].id }}/{{ total }}</span>
-                <img :src="mainPhoto" alt="Image" class="img-fluid" />
+                <img :src="src\assets\images\site saftey.jpg" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
                 <span class="number">{{ items[3].id }}/{{ total }}</span>
