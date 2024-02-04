@@ -1,5 +1,8 @@
 <script setup>
 import mainPhoto from "../assets/images/service2.jpg";
+import photo2 from "../assets/images/assembly.jpg";
+import photo3 from "../assets/images/graph.png";
+import photo4 from "../assets/images/sitesafety.jpg";
 const items = [
   {
     id: 1,
@@ -149,15 +152,15 @@ const total = 4;
             <div class="owl-single no-dots owl-carousel">
               <div class="item">
                 <span class="number">{{ items[0].id }}/{{ total }}</span>
-                <img :src="src\assets\images\assembly line.jpg" alt="Image" class="img-fluid" />
+                <img :src="photo2" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
                 <span class="number">{{ items[1].id }}/{{ total }}</span>
-                <img :src="src\assets\images\graph.png" alt="Image" class="img-fluid" />
+                <img :src="photo3" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
                 <span class="number">{{ items[2].id }}/{{ total }}</span>
-                <img :src="src\assets\images\site saftey.jpg" alt="Image" class="img-fluid" />
+                <img :src="photo4" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
                 <span class="number">{{ items[3].id }}/{{ total }}</span>
