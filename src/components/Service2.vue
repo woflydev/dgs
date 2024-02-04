@@ -22,7 +22,7 @@ const items = [
     des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
   },
 ];
-const total = 3;
+const total = 4;
 </script>
 
 <template>
@@ -117,13 +117,13 @@ const total = 3;
               <p>{{ items[2].des }}</p>
             </div>
           </a>
-          <a
+          <!-- <a
             href="#"
             class="service link horizontal d-flex"
             data-aos="fade-left"
             data-aos-delay="300"
           >
-            <!-- <div class="service-icon color-4 mb-4">
+             <div class="service-icon color-4 mb-4">
               <svg
                 class="bi bi-collection"
                 width="1em"
@@ -141,8 +141,8 @@ const total = 3;
             <div class="service-contents">
               <h3>{{ items[3].name }}</h3>
               <p>{{ items[3].des }}</p>
-            </div> -->
-          </a>
+            </div>
+          </a>  -->
         </div>
         <div class="col-lg-7">
           <div class="img-shadow">
